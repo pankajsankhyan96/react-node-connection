@@ -2,7 +2,7 @@
     "environments": {
         "review": {
             "env": {
-              "REACT_APP_ENV": "revieddw"
+              "REACT_APP_ENV": "review"
             }
         }
     }
