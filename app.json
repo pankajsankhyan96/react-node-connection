@@ -1,20 +1,17 @@
 {
-    "env": {
-        "NODE_ENVR": "production-environment",
-        "SECRET_TOKEN": {
-          "description": "A secret key for verifying the integrity of signed cookies.",
-          "generator": "secret"
-        },
-        "WEB_CONCURRENCY": {
-          "description": "The number of processes to run.",
-          "value": "5"
-        }
-    },
     "environments": {
-      "review": {
-        "env": {
-          "REACT_APP_ENV": "review"
+        "test": {
+            "env": {
+                "REACT_APP_ENV1": "reviewddd"
+            },
+          "scripts": {
+            "test": "bundle exec rake test"
+          }
+        },
+        "review": {
+            "env": {
+              "REACT_APP_ENV": "review"
+            }
         }
-      }
     }
 }
