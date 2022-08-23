@@ -46,13 +46,13 @@ function App() {
         </a>
 
         <p>
-            <strong>Get from Server:</strong>
+            <strong>Get data from Server:</strong>
         </p>
         <p>{!data ? "Loading..." : data}</p>
 
         <form onSubmit={handleSubmit}>
           <p>
-            <strong>Post to Server:</strong>
+            <strong>Post data to Server:</strong>
           </p>
           <input
             type="text"
