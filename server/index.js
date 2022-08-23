@@ -18,7 +18,7 @@ app.get("/api", (req, res) => {
 app.post('/api/post', (req, res) => {
   console.log(req.body);
   res.send(
-    `I received your POST request. This is what you sent me: ${JSON.stringify(req.body)}`,
+    `I received your POST request. This is what you sent me: ${JSON.stringify(req.body) + ' envs: ' + process.env.REACT_APP_ENV}`,
   );
 });
 
