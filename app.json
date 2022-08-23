@@ -13,7 +13,9 @@
     "environments": {
       "review": {
         "env": {
-          "REACT_APP_ENV": "development"
+          "REACT_APP_ENV": "development",
+          "NODE_ENV":"sfsdfgfd",
+          "NODE_DV": "safsdfsdf"
         }
       }
     }
