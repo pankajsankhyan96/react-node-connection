@@ -1,5 +1,10 @@
 {
     "environments": {
+        "test": {
+            "env": {
+                "REACT_APP_ENV": "staging"
+            }
+        },
         "review": {
             "env": {
               "REACT_APP_ENV": "review"
