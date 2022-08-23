@@ -41,8 +41,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React {process.env.DB_HOST}
-          {JSON.stringify(process.env)}
+          Learn React : {process.env.REACT_APP_ENV}
+          :  {JSON.stringify(process.env)}
         </a>
 
         <p>
