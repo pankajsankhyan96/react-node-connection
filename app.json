@@ -11,11 +11,9 @@
         }
     },
     "environments": {
-      "review": {
+      "review ": {
         "env": {
-          "REACT_APP_ENV": "development",
-          "NODE_ENV":"sfsdfgfd",
-          "NODE_DV": "safsdfsdf"
+          "NODE_ENV": "development"
         }
       }
     }
