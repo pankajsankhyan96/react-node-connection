@@ -11,9 +11,9 @@
         }
     },
     "environments": {
-      "review ": {
+      "review": {
         "env": {
-          "REACT_APP_ENV": "revievvvw"
+          "REACT_APP_ENV": "review"
         }
       }
     }
