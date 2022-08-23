@@ -1,14 +1,25 @@
 const express = require("express");
 const path = require('path');
+const bodyParser = require("body-parser")
 
 const PORT = process.env.PORT || 3001;
 
 const app = express();
 
+// parse requests of content-type - application/json
+app.use(bodyParser.json());
+
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 app.get("/api", (req, res) => {
     res.json({ message: "API called from react!" });
+});
+
+app.post('/api/post', (req, res) => {
+  console.log(req.body);
+  res.send(
+    `I received your POST request. This is what you sent me: ${JSON.stringify(req.body)}`,
+  );
 });
 
 app.get('/', (req, res) => {
