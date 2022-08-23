@@ -1,13 +1,5 @@
 {
     "environments": {
-        "test": {
-            "env": {
-                "REACT_APP_ENV1": "reviewddd"
-            },
-          "scripts": {
-            "test": "bundle exec rake test"
-          }
-        },
         "review": {
             "env": {
               "REACT_APP_ENV": "review"
